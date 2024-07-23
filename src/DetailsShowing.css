@@ -1,0 +1,45 @@
+.jcp {
+  display: none;
+}
+.anim {
+  height: 40vh;
+  width: 40vw;
+  overflow: hidden;
+}
+.corousel {
+  display: none;
+}
+.slide {
+  height: 100%;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .middle-content {
+    height: 20%;
+    width: 100%;
+    border: none;
+    background-color: black;
+    margin: auto;
+    margin-top: 105px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .middle-content {
+    /*  */
+    height: 20%;
+    width: 100%;
+    border: none;
+    background-color: black;
+    margin: auto;
+    margin-top: 110px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .middle-content {
+    height: fit-content;
+    border: 2px solid rgb(114, 113, 112);
+    background-color: black;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,297 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Slab", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .m10 {
+    z-index: +3;
+    margin-top: 50px;
+  }
+
+  /* navigation bar started */
+  .navbarf {
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 20px rgb(152, 149, 147) solid;
+  }
+  .sct {
+    padding: 0%;
+  }
+  .ctt {
+    background-color: rgb(152, 149, 147);
+    padding: 2px;
+    margin: 0%;
+    height: 35px;
+  }
+  .logo {
+    height: 3em;
+  }
+  .col_g {
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    transition: 0.2s;
+  }
+  .col_g:hover {
+    scale: 1.2;
+  }
+  .search-box {
+    margin-right: 2px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(242, 235, 245);
+    height: 30px;
+    color: rgb(255, 255, 255);
+    width: 180px;
+    font-weight: 400;
+  }
+  .search-box:focus {
+    border-color: rgb(35, 2, 48);
+    width: 400px;
+    height: 40px;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(152, 149, 147);
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+  ::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Fix for Firefox */
+  }
+  .color-setting {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2em;
+  }
+  .color-setting:hover {
+    scale: 1.3;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .m10 {
+    z-index: +3;
+    margin-top: 50px;
+    height: 20px;
+  }
+
+  /* navigation bar started */
+  .navbarf {
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 20px rgb(152, 149, 147) solid;
+  }
+  .sct {
+    padding: 0%;
+  }
+  .ctt {
+    background-color: rgb(152, 149, 147);
+    padding: 2px;
+    margin: 0%;
+    height: 60px;
+  }
+  .logo {
+    height: 3em;
+  }
+  .col_g {
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    transition: 0.2s;
+  }
+  .col_g:hover {
+    scale: 1.2;
+  }
+  .search-box {
+    margin-right: 2px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(242, 235, 245);
+    height: 30px;
+    color: #fff;
+    width: 180px;
+    font-weight: 400;
+  }
+  .search-box:focus {
+    border-color: rgb(35, 2, 48);
+    width: 400px;
+    height: 40px;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(152, 149, 147);
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+  ::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Fix for Firefox */
+  }
+  .color-setting {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2em;
+  }
+  .color-setting:hover {
+    scale: 1.3;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 990px) {
+  .m10 {
+    z-index: +3;
+    margin-top: 65px;
+    height: 30px;
+  }
+  /* navigation bar started */
+  .navbarf {
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 20px rgb(152, 149, 147) solid;
+  }
+  .sct {
+    padding: 0%;
+  }
+  .ctt {
+    background-color: rgb(152, 149, 147);
+    padding: 2px;
+    margin: 0%;
+    height: 60px;
+  }
+  .logo {
+    height: 3em;
+  }
+  .col_g {
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    transition: 0.2s;
+  }
+  .col_g:hover {
+    scale: 1.2;
+  }
+  .search-box {
+    margin-right: 2px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(242, 235, 245);
+    height: 30px;
+    color: #fff;
+    width: 180px;
+    font-weight: 400;
+  }
+  .search-box:focus {
+    border-color: rgb(35, 2, 48);
+    width: 400px;
+    height: 40px;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 113, 112);
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+  ::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Fix for Firefox */
+  }
+  .color-setting {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2em;
+  }
+  .color-setting:hover {
+    scale: 1.3;
+  }
+}
+@media screen and (min-width: 991px) {
+  .m10 {
+    z-index: +3;
+    margin-top: 90px;
+    height: 30px;
+  }
+  /* navigation bar started */
+  .navbarf {
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 20px rgb(152, 149, 147) solid;
+  }
+  .sct {
+    padding: 0%;
+  }
+  .ctt {
+    background-color: rgb(152, 149, 147);
+    padding: 2px;
+    margin: 0%;
+    height: 60px;
+  }
+  .logo {
+    height: 3em;
+  }
+  .col_g {
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    transition: 0.2s;
+  }
+  .col_g:hover {
+    scale: 1.2;
+  }
+  .search-box {
+    margin-right: 2px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(242, 235, 245);
+    height: 30px;
+    color: #fff;
+    width: 180px;
+    font-weight: 400;
+  }
+  .search-box:focus {
+    border-color: rgb(35, 2, 48);
+    width: 400px;
+    height: 40px;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 113, 112);
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+  ::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Fix for Firefox */
+  }
+  .color-setting {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2em;
+  }
+  .color-setting:hover {
+    scale: 1.3;
+  }
+}
+/* NavBar.css */
+.navbar-collapse {
+  background-color: rgb(
+    152,
+    149,
+    147
+  ) !important; /* Ensure the background color matches your desired color */
+}
+
+.navbar-nav .nav-link {
+  color: #000 !important; /* Adjust text color if needed */
+}

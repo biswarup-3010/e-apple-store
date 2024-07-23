@@ -1,0 +1,137 @@
+.main_container_footer {
+  padding: auto;
+  background-color: #1e1e1e;
+}
+
+.container {
+  padding: 20px;
+}
+
+.middle_the {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h2 {
+  color: rgb(0, 254, 38);
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "text1 img1"
+    "img2 text2"
+    "text3 img3"
+    "img4 text4";
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  animation: float 3s ease-in-out infinite;
+}
+
+h3.points {
+  color: #fff;
+}
+
+p.discussions {
+  color: #b0b0b0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footerImages {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* * {
+    text-align: left;
+  } */
+  .grid-container {
+    grid-template-areas:
+      "text1"
+      "img1"
+      "text2"
+      "img2"
+      "text3"
+      "img3"
+      "text4"
+      "img4";
+  }
+  .main_container_footer,
+  .grid-container,
+  .grid-item {
+    padding: 0% !important;
+    text-align: left;
+  }
+  .container-wrapup {
+    padding: 10px;
+    margin: auto !important;
+  }
+  .details-desc {
+    text-align: left;
+  }
+  .footerImages {
+    height: 200px;
+  }
+}
+.footerImages:hover {
+  transform: scale(1.05);
+  transition: transform 0.8s;
+  border-radius: 0px;
+}
+.heading-wrapup {
+  color: rgb(153, 255, 0);
+}
+.details-desc {
+  color: aliceblue;
+  margin: 0%;
+}
