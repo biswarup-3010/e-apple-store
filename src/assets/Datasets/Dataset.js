@@ -392,7 +392,7 @@ export const Airpods = [
     price: "₹14116.57",
   },
   {
-    name: "AirPods Pro(2nd gen)",
+    name: "AirPods Pro",
     src: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1694014871985",
     specifiaction: `Adaptive Audio | ANC | Up to 6 hours`,
     details:
